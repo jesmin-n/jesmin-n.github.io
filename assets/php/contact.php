@@ -20,14 +20,16 @@ if(isset($_POST['message'])){
 		$res['sendstatus'] = 'done';
 	
 		//Edit your message here
-		$res['message'] = 'Form Submission Successful';
+		//$res['message'] = 'Form Submission Successful';
+		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
     }
 	else{
-		$res['message'] = 'Failed to send mail. Please mail me to you@example.com';
+		//$res['message'] = 'Failed to send mail. Please contact me at xjesmin.ngo@gmail.com instead.';
+		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
 	}
 	
 	
-	echo json_encode($res);
+	echo json_encode($result);
 }
 
 ?>
