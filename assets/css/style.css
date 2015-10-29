@@ -759,7 +759,7 @@ textarea.form-control {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption {
 	color: #fff;
 	position: absolute;
 	top: 0;
