@@ -17,6 +17,11 @@ img {
 	height: auto;
 }
 
+
+#whitelink a {
+	color: #fff;
+}
+
 a {
 	color: #E7746F;
 }
@@ -25,11 +30,6 @@ a:hover {
 	text-decoration: none;
 	color: #999;
 }
-
-#whitelink a {
-	color:#fff;
-}
-
 
 /* ---------------------------------------------- /*
  * Transition elements
