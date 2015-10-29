@@ -22,6 +22,11 @@ img {
 	color: #fff;
 }
 
+#whitelink a:hover {
+	text-decoration: none;
+	color: #A9A9A9;
+}
+
 a {
 	color: #E7746F;
 }
