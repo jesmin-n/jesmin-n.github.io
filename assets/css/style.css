@@ -813,17 +813,17 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #fff;
+	background: #000;
 }
 
 figure.effect-bubba img {
-	opacity: 1.0;
+	opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 1.0;
 }
 
 figure.effect-bubba figcaption::before,
