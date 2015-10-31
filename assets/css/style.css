@@ -54,6 +54,19 @@ a,
 			transition: all 0.125s ease-in-out 0s;
 }
 
+
+/* ---------------------------------------------- /*
+ * Carousel
+/* ---------------------------------------------- */
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     display: block;
+     max-width: 100%;
+     width: auto;
+     margin: auto;
+     height: 500px !important;
+ }
+
 /* ---------------------------------------------- /*
  * Reset box-shadow
 /* ---------------------------------------------- */
